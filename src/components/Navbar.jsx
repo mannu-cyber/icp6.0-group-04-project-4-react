@@ -1,20 +1,13 @@
-import React from 'react' 
-import ThemeToggler from './ThemeToggler'
+import React from "react";
+import ThemeToggle from "./ThemeToggle";
 
-
-
-function Navbar() {
+const Navbar = () => {
   return (
-    <div>
-<nav className='flex justify-between items-center px-3 py-2 sticky top-0 left-0'>
-<ThemeToggler/>
+    <nav className=" flex justify-between items-center px-5 sticky top-0 left-0">
+      <ThemeToggle />
+      <img className="w-[40px]" src="/instagram.png" alt="" />
+    </nav>
+  );
+};
 
-<img className='w-[40px] ' src='./instagram.png' alt="" />
-</nav>
-
-
-    </div>
-  )
-}
-
-export default Navbar
+export default Navbar;

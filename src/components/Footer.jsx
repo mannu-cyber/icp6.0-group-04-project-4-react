@@ -1,18 +1,11 @@
-// import { Link } from "react-router-dom";
+import React from "react";
 
-function Footer() {
+const Footer = () => {
   return (
- <footer className=" bg-green-400 fixed w-[500px] flex justify-around bottom-0 left-50">
+    <footer>
+      {/* Footer content */}
+    </footer>
+  );
+};
 
-{/* <Link to = '/'>Login</Link>
-<Link to = '/match'>Match</Link>
-<Link to = '/profile'>Profile</Link>
-<Link to = '/massage'>Massage</Link> */}
-
-footer
-
- </footer>
-  )
-}
-
-export default Footer
+export default Footer;

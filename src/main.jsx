@@ -1,19 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+    import React from "react";
+    import ReactDOM from "react-dom/client";
+    import { ThemeProvider } from "./context/ThemeContext";
+    import App from "./App";
 import './index.css'
-import Home from './views/Home.jsx'
-import Navbar from './components/Navbar.jsx'
-import Footer from './components/Footer.jsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-< >
+    ReactDOM.createRoot(document.getElementById('root')).render(
 
-<div className="wrapper w-[500px] h-screen border">
+        <ThemeProvider>
+    <App/>
+        </ThemeProvider>,
 
-<Navbar/>
-<Home/>
-<Footer/>
-</div>
-
-</>
-)
+    );

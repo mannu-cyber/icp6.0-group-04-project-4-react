@@ -1,11 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
-function Home() {
+const Home = () => {
   return (
-    <>
-      <h1 className="text-center bg-red-500">this is home page</h1>
-    </>
+    <div className="w-[500px]  h-screen border">
+      <Navbar/>
+      <h1 className="text-center">This is the home page</h1>
+    </div>
   );
-}
+};
 
 export default Home;
