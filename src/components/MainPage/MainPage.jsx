@@ -2,6 +2,7 @@ import { Component } from "react"
 import Avatar from '@mui/material/Avatar';
 import "./MainPage.css"
 import Img1 from "/src/components/images/img1.jpg";
+import Bottom from "../bottom";
 
 
 class MainPage extends Component {
@@ -60,7 +61,7 @@ class MainPage extends Component {
 
           }
           
-          
+          <Bottom/>
           
           
 
@@ -68,7 +69,16 @@ class MainPage extends Component {
 
         <div className="w-[20%] bg-white"></div>
 
+        
+         
+
+
+
+
+
       </div>
+
+    
     );
   }
 }
