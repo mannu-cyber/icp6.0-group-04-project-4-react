@@ -13,10 +13,12 @@ const ThemeProvider = ({ children }) => {
     dark: {
       backgroundColor: "#333",
       color: "#fff",
+      border:'1px solid #fff'
     },
     light: {
       backgroundColor: "#fff",
       color: "#333",
+      border:'1px solid #333'
     },
   };
 

@@ -5,7 +5,7 @@ const ThemeToggle = () => {
   const { toggleTheme } = useTheme();
 
   return (
-    <button onClick={toggleTheme} className="p-3   mt-4 ">
+    <button onClick={toggleTheme} className="p-3  ">
 <img src='theme.png' alt="" />
     </button>
   );

@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
-  // Add more routes as needed
+
 ]);
 
 const App = () => {
