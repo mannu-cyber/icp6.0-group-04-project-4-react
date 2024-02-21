@@ -3,6 +3,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './views/Home'
 import Match from "./views/Match";
 import Navbar from "./components/Navbar";
+import SignUp from "./views/Signup";
+import Massage from "./views/Massage";
 // import ThemeToggle from "./components/ThemeToggle";
 
 const router = createBrowserRouter([
@@ -11,10 +13,14 @@ const router = createBrowserRouter([
     path:'/match',
     element:<Match/>
   },
-  // {
-  //   path:'/login',
-  //   element:<Login/>
-  // },
+  {
+    path:'/signup',
+    element:<SignUp/>
+  },
+  {
+    path:'/massage',
+    element:<Massage/>
+  }
   
 
 ]);
