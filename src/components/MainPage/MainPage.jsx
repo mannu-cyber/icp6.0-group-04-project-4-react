@@ -1,4 +1,5 @@
 import { Component } from "react"
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Avatar from '@mui/material/Avatar';
 import "./MainPage.css"
 import Img1 from "/src/components/images/img1.jpg";
@@ -18,17 +19,18 @@ class MainPage extends Component {
 
         <div className="w-[20%] bg-white"></div>
 
-        <div className="w-[60%]  overflow-scroll scrollbar-hide">
+        <div className= " overflow-scroll scrollbar-hide" style={{width:'auto'}}>
 
           <div className="bg-white h-[70px]"></div>
 
           {
              
-             [1,2,3,4,5,6,7].map((item)=>{
+             Array.from({ length: 5 }, (_, index) =>{
 
-              const card = cardData[item - 1];
+              const item = index + 1;
+               const card = cardData[item - 1];
                 return(
-                    <div key={item} className="bg-white w-[60%]  mx-auto mt-[30px] p-8 rounded-lg">
+                    <div key={item} className="bg-white   mx-auto mt-[30px] p-8 rounded-lg" >
             <div className="border-b flex items-center pb-8">
               <Avatar alt={card.name} src={card.avatarSrc} />
               <div className="ml-4">
@@ -63,7 +65,7 @@ class MainPage extends Component {
 
           }
           
-          <Bottom/>
+          
           
           
 

@@ -9,7 +9,7 @@ const cardData = [
     {
       name: 'John Doe',
       username: 'John_Doe',
-      avatarSrc: '/static/images/avatar/2.jpg',
+      avatarSrc: '/static/images/avatar/7.jpg',
       imageSrc: '/src/components/images/img2.jpg',
       likes: 5000
     },

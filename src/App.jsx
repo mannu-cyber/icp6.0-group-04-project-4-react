@@ -7,8 +7,12 @@ import SignUp from "./views/Signup";
 import Massage from "./views/Massage";
 import Login from "./views/Login";
 import OtpVerification from "./views/OtpVerification";
+import MainPage from "./components/MainPage/MainPage";
 
 const router = createBrowserRouter([
+  {
+   path: '/MainPage' , element: <MainPage/>
+  },
   { path: '/home', element: <Home /> },
   {
     path:'/match',
@@ -40,6 +44,7 @@ const App = () => {
   return (
     <RouterProvider router={router}>
     <Navbar/>
+    <MainPage/>
 <Home/>
 
      
