@@ -5,18 +5,29 @@ import Match from "./views/Match";
 import Navbar from "./components/Navbar";
 import SignUp from "./views/Signup";
 import Massage from "./views/Massage";
-// import ThemeToggle from "./components/ThemeToggle";
+import Login from "./views/Login";
+import OtpVerification from "./views/OtpVerification";
 
 const router = createBrowserRouter([
-  { path: '/', element: <Home /> },
+  { path: '/home', element: <Home /> },
   {
     path:'/match',
     element:<Match/>
   },
   {
-    path:'/signup',
+    path:'/',
     element:<SignUp/>
   },
+{
+  path:'/login',
+  element:<Login/>
+},
+
+{
+  path:'/otpVerification',
+  element:<OtpVerification/>
+},
+
   {
     path:'/massage',
     element:<Massage/>
