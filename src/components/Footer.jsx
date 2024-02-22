@@ -16,7 +16,7 @@ const Footer = () => {
       <Link to="/match">
         <img src="match.png" alt="" />
       </Link>
-      <Link to="/profile">
+      <Link to="/signup">
         <img src="user.png" alt="" />
       </Link>
     </footer>
