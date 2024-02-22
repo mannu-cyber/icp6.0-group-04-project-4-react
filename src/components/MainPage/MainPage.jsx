@@ -3,7 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import "./MainPage.css"
 import Img1 from "/src/components/images/img1.jpg";
 import Bottom from "../bottom";
-
+import cardData from '../Data/cardData'
 
 class MainPage extends Component {
   constructor(props) {
@@ -14,35 +14,37 @@ class MainPage extends Component {
   render() {
     return (
 
-      <div className="h-screen bg-[#d2cfdf] flex overflow-hidden">
+      <div className="h-screen bg-slate-100 flex overflow-hidden">
 
         <div className="w-[20%] bg-white"></div>
 
-        <div className="w-[60%] bg-sky overflow-scroll scrollbar-hide">
+        <div className="w-[60%]  overflow-scroll scrollbar-hide">
 
           <div className="bg-white h-[70px]"></div>
 
           {
              
-             [1,2,3,4,5,6,7].map(()=>{
+             [1,2,3,4,5,6,7].map((item)=>{
+
+              const card = cardData[item - 1];
                 return(
-                    <div className="bg-white w-[60%]  mx-auto mt-[30px] p-8">
+                    <div key={item} className="bg-white w-[60%]  mx-auto mt-[30px] p-8 rounded-lg">
             <div className="border-b flex items-center pb-8">
-              <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+              <Avatar alt={card.name} src={card.avatarSrc} />
               <div className="ml-4">
-                <h3>Lara jones</h3>
-                <p>@Lara_jones</p>
+                <h3 className="font-medium">{card.name}</h3>
+                <p>@{card.username}</p>
               </div>
             </div>
 
             <div className="border b pb-4 ">
-              <img src="/src/components/images/img1.jpg"></img>
+              <img src={card.imageSrc}></img>
             </div>
 
-            <div className="flex justify-evenly mt-5">
+            <div className="flex justify-evenly mt-5 font-medium">
               <div className="flex items-center">
                 <img src="https://cdn.hugeicons.com/icons/favourite-stroke-rounded.svg" alt="favourite" width="24" height="24" />
-                <span className="ml-2">Like</span>
+                <span className="ml-2">{card.likes} Like</span>
               </div>
               <div className="flex items-center text-justify">
                 <img src="https://cdn.hugeicons.com/icons/bubble-chat-delay-stroke-rounded.svg" alt="bubble-chat-delay" width="24" height="24" />
