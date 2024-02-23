@@ -29,7 +29,7 @@ class MainPage extends Component {
 
           {
              
-             Array.from({ length: 10 }, (_, index) =>{
+             Array.from({ length: 100 }, (_, index) =>{
 
               const item = index + 1;
                const card = cardData[item - 1];
