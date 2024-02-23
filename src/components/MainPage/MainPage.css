@@ -10,3 +10,6 @@
   background-image: url(/src/components/images/img1.jpg);
   
 }
+.red-heart {
+  fill: red;
+}
