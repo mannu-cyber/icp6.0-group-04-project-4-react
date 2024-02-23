@@ -1,8 +1,13 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 function UserDashboard() {
   return (
-    <div>UserDashboard</div>
+    <div className='border h-screen'>
+
+
+<Footer/>
+    </div>
   )
 }
 
