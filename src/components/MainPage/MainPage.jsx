@@ -19,11 +19,11 @@ class MainPage extends Component {
   render() {
     return (
 
-      <div className="h-screen bg-slate-50 flex overflow-hidden">
+      <div className="h-screen   flex overflow-hidden">
 
         <div className="w-[20%] bg-white"></div>
 
-        <div className= " overflow-scroll scrollbar-hide" style={{width:'auto'}}>
+        <div className= " bg-slate-100 border-2 overflow-scroll scrollbar-hide rounded" style={{width:'auto'}}>
 
           <div className="bg-white h-[70px]"></div>
 
