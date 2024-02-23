@@ -1,6 +1,10 @@
 import { Component } from "react"
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Avatar from '@mui/material/Avatar';
+
+
+import Stack from '@mui/material/Stack';
+
 import "./MainPage.css"
 import Img1 from "/src/components/images/img1.jpg";
 import Bottom from "../bottom";
@@ -15,7 +19,7 @@ class MainPage extends Component {
   render() {
     return (
 
-      <div className="h-screen bg-slate-100 flex overflow-hidden">
+      <div className="h-screen bg-slate-50 flex overflow-hidden">
 
         <div className="w-[20%] bg-white"></div>
 
@@ -25,7 +29,7 @@ class MainPage extends Component {
 
           {
              
-             Array.from({ length: 5 }, (_, index) =>{
+             Array.from({ length: 10 }, (_, index) =>{
 
               const item = index + 1;
                const card = cardData[item - 1];
