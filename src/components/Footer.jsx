@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="fixed	 bottom-7 left-[50%] flex gap-9 w-[470px] -translate-x-[50%] justify-evenly">
-      <Link to="/">
+      <Link to="/home">
         <img src="home.png" alt="" />
       </Link>
       <Link to="/massage">
@@ -16,7 +16,7 @@ const Footer = () => {
       <Link to="/match">
         <img src="match.png" alt="" />
       </Link>
-      <Link to="/signup">
+      <Link to="/user">
         <img src="user.png" alt="" />
       </Link>
     </footer>

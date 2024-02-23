@@ -7,6 +7,7 @@ import SignUp from "./views/Signup";
 import Massage from "./views/Massage";
 import Login from "./views/Login";
 import OtpVerification from "./views/OtpVerification";
+import UserDashboard from "./views/UserDashboard";
 
 const router = createBrowserRouter([
   { path: '/home', element: <Home /> },
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
 {
   path:'/login',
   element:<Login/>
+},
+
+{
+  path:'user',
+  element:<UserDashboard/>
 },
 
 {
