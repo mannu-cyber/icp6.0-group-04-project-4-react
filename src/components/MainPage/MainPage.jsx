@@ -1,13 +1,12 @@
 import { Component } from "react"
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Avatar from '@mui/material/Avatar';
 
 
 import Stack from '@mui/material/Stack';
 
 import "./MainPage.css"
-import Img1 from "/src/components/images/img1.jpg";
-import Bottom from "../bottom";
+// import Img1 from "/src/components/images/img1.jpg";
+// import Bottom from "../bottom";
 import cardData from '../Data/cardData'
 
 class MainPage extends Component {
@@ -36,7 +35,7 @@ class MainPage extends Component {
 
     return (
 
-      <div className="h-screen   flex overflow-hidden">
+      <div className="h-[76vh]   flex overflow-hidden">
 
         <div className="w-[20%] bg-white"></div>
 
@@ -53,7 +52,7 @@ class MainPage extends Component {
                const isLiked = likedCards.has(item);
 
                 return(
-                    <div key={item} className="bg-white   mx-auto mt-[30px] p-8 rounded-lg" >
+                    <div key={item} className="bg-white   mx-auto mt-[0px] p-8 rounded-lg" >
             <div className="border-b flex items-center pb-8" style={{ cursor: 'pointer' }}>
               <Avatar alt={card.name} src={card.avatarSrc} />
               <div className="ml-4">
