@@ -7,7 +7,8 @@ import SignUp from "./views/Signup";
 import Massage from "./views/Massage";
 import Login from "./views/Login";
 import OtpVerification from "./views/OtpVerification";
-
+import Female from "./views/Female";
+import MyComponet from "./views/Female";
 const router = createBrowserRouter([
   { path: '/home', element: <Home /> },
   {
@@ -31,7 +32,13 @@ const router = createBrowserRouter([
   {
     path:'/massage',
     element:<Massage/>
+  },
+  {
+    path:'/Female',
+    element:<Female/>
   }
+
+  
   
 
 ]);
