@@ -58,7 +58,9 @@ class MainPage extends Component {
               <Avatar alt={card.name} src={card.avatarSrc} />
               <div className="ml-4">
                 <h3 className="font-medium">{card.name}</h3>
+                
                 <p>@{card.username}</p>
+
               </div>
             </div>
 
