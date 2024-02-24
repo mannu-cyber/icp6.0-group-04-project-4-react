@@ -7,6 +7,7 @@ import SignUp from "./views/Signup";
 import Massage from "./views/Massage";
 import Login from "./views/Login";
 import OtpVerification from "./views/OtpVerification";
+import Female from "./views/Female";
 import UserDashboard from "./views/UserDashboard";
 import MainPage from "./components/MainPage/MainPage";
 import HarasaDm from "./views/HarasaDm";
@@ -48,11 +49,21 @@ const router = createBrowserRouter([
   {
     path:'/massage',
     element:<Massage/>
+<<<<<<< HEAD
+  },
+  {
+    path:'/female',
+    element:<Female/>
+  }
+
+  
+=======
   }, 
   // {
   //   path:'/female',
   //   element:<fema
   // }
+>>>>>>> 2a36eb97cddac4544fe2bc75772bc9a65a9f2b5d
   
 {
   path:'/harsaDm',
