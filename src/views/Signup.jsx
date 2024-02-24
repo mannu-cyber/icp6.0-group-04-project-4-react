@@ -29,7 +29,7 @@ function Signup() {
   const login = () => {
     handleLogin.push("/login");
 
-    console.log("hellow");
+  
   };
 
   return (

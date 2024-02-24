@@ -1,10 +1,15 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+// import { useHistory } from "react-router-use-history";
 
 import '../../public/font.css'
 
 function Match() {
+
+// const navigate = useHistory('')
+
+
   return (
     <div className='h-[100vh] py-3 px-2 '>
     <Navbar/>
