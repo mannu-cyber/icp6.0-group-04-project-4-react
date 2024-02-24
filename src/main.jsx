@@ -2,12 +2,13 @@
     import ReactDOM from "react-dom/client";
     import { ThemeProvider } from "./context/ThemeContext";
     import App from "./App";
-import './index.css'
+    import './index.css'
+    
 
     ReactDOM.createRoot(document.getElementById('root')).render(
 
         <ThemeProvider>
-    <App/>
+        <App/>
         </ThemeProvider>,
 
     );

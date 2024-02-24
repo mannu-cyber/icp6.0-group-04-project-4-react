@@ -1,3 +1,9 @@
+@font-face {
+  font-family: a;
+  src: url(../public/fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +16,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 
 @tailwind base;
 @tailwind components;

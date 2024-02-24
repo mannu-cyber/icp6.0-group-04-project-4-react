@@ -1,0 +1,12 @@
+
+.scrollbar-hide::-webkit-scrollbar{
+  display: none;
+}
+
+.img1{
+  background-image: url(/src/components/images/img1.jpg);
+  
+}
+.red-heart {
+  fill: red;
+}

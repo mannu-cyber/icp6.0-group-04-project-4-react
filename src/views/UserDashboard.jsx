@@ -2,22 +2,14 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
-function Massage() {
+function UserDashboard() {
   return (
-    <div className='h-screen py-3 px-2' >
-
-<div className="container">
-
+    <div className='border h-screen py-3 px-2'>
 <Navbar/>
 
-
-</div>
-
-
-
-    <Footer/>
+<Footer/>
     </div>
   )
 }
 
-export default Massage
+export default UserDashboard

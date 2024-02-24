@@ -29,44 +29,52 @@ function Signup() {
   const login = () => {
     handleLogin.push("/login");
 
-    console.log("hellow");
+  
   };
 
   return (
     <div className="h-screen">
       <div className="container flex flex-col justify-center items-center h-full gap-[50px]">
-        <h1 className="text-center text-[2vw]">Sign Up</h1>
+      <div className="logo">
+          <img className="mb-6 block mx-auto" src="/logo.png" alt="" />
+          <p className="w-[80%] text-[1.3vw] text-center block mx-auto">
+            Login to see photos and videos from your friends.
+          </p>
+        </div>
 
         <form className="flex flex-col px-[3vw] gap-[15px]">
           <input
-            className="px-[20px] py-[5px] border rounded-[5px] w-[300px]"
+            className="px-[20px] block mx-auto py-[5px] border rounded-[5px] w-[300px]"
             name="name"
             onChange={(e) => setEmail(e.target.value)}
             required
             placeholder="Enter email/ number"
           />
           <input
-            className="px-[20px] py-[5px] border rounded-[5px] w-[300px]"
+            className="px-[20px] block mx-auto py-[5px] border rounded-[5px] w-[300px]"
             type="text "
             placeholder="Enter Name"
             onChange={(e) => setName(e.target.value)}
             required
           />
           <input
-            className="px-[20px] py-[5px] border rounded-[5px] w-[300px]"
+            className="px-[20px] block mx-auto py-[5px] border rounded-[5px] w-[300px]"
             type="password"
             placeholder="Create Password"
             onChange={(e) => setPassword(e.target.value)}
             required
           />
           <input
-            className="px-[20px] py-[5px] border rounded-[5px] w-[300px]"
+            className="px-[20px] block mx-auto py-[5px] border rounded-[5px] w-[300px]"
             type="password"
             placeholder="Confirm Password"
             onChange={(e) => setConfirmPassword(e.target.value)}
             required
           />
 
+
+<p className="w-[90%] my-3 block mx-auto  text-center">
+By signing up, you agree to our Terms , Privacy Policy and Cookies Policy .</p>
           <button
             onClick={handleSignUp}
             type="button"
@@ -76,6 +84,7 @@ function Signup() {
             Sign up
           </button>
         </form>
+        <p className="-my-8">or</p>
 
         <div className="other flex gap-9">
           <img src={google} alt="" />

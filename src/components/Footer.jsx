@@ -3,21 +3,21 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="fixed	 bottom-7 left-[50%] flex gap-9 w-[470px] -translate-x-[50%] justify-evenly">
-      <Link to="/">
-        <img src="home.png" alt="" />
+    <footer className="fixed h-[60px]	items-center bottom-0 left-[50%] flex gap-9 w-[483px] -translate-x-[50%] justify-evenly ">
+      <Link to="/home">
+        <img className="w-[25px]" src="home.png" alt="" />
       </Link>
       <Link to="/massage">
-        <img src="chat.png" alt="" />
+        <img className="w-[25px]" src="chat.png" alt="" />
       </Link>
       <Link to="/add">
-        <img src="add.png" alt="" />
+        <img className="w-[25px]" src="add.png" alt="" />
       </Link>
       <Link to="/match">
-        <img src="match.png" alt="" />
+        <img className="w-[25px]" src="match.png" alt="" />
       </Link>
-      <Link to="/signup">
-        <img src="user.png" alt="" />
+      <Link to="/user">
+        <img className="w-[25px]" src="user.png" alt="" />
       </Link>
     </footer>
   );
