@@ -133,7 +133,7 @@ function Card({ card }) {
   };
 
   return (
-    <div style={{ border: matched ? '1px solid #ccc' : 'none', height: '410px', display: 'flex', borderRadius: '10px', width: '410px', marginLeft: '25px' }}>
+    <div className='mx-auto overflow-hidden' style={{ border: matched ? '1px solid #ccc' : 'none', height: '410px', display: 'flex', borderRadius: '10px', width: '410px', marginLeft: '25px' }}>
       <div style={{ borderRadius: '12px', padding: '40px', width: '90px', height: '260px', borderColor: 'aqua', margin: '3px', marginTop: '60px' }}>
         <button style={{ height: '25px', width: '25px', margin: '2px' }}><img src='like.png' alt="Like"></img><h5>{card.likes}</h5></button>
         <button style={{ height: '25px', width: '25px', margin: '2px' }}><img src='eye.png' alt="Eye"></img></button>
