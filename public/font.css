@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'YourCustomFont';
+    src: url('./fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
