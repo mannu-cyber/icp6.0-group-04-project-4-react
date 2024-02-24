@@ -32,14 +32,14 @@ class MainPage extends Component {
     const { likedCards } = this.state;
 
     return (
-      <div className="h-[70vh] flex overflow-hidden">
+      <div className="h-[70vh] flex overflow-hidden -pt-9">
         {/* <div className="w-[20%] "></div> */}
 
         <div
           className="   -pt-9 overflow-scroll scrollbar-hide rounded"
           style={{ width: "auto" }}
         >
-          <div className=" h-[70px]"></div>
+        
 
           {Array.from({ length: 100 }, (_, index) => {
             const item = index + 1;
@@ -49,7 +49,7 @@ class MainPage extends Component {
             return (
               <div key={item} className="   mx-auto mt-[0px] p-8 rounded-lg">
                 <div
-                  className="border-b flex items-center pb-8"
+                  className="border-b flex items-center pb-1"
                   style={{ cursor: "pointer" }}
                 >
                   <Avatar alt={card.name} src={card.avatarSrc} />
@@ -61,7 +61,7 @@ class MainPage extends Component {
                 </div>
 
                 <div
-                  className="border-2 rounded  b pb-4 "
+                  className="border-2 rounded  b pb- "
                   style={{ cursor: "pointer" }}
                 >
                   <img src={card.imageSrc}></img>
