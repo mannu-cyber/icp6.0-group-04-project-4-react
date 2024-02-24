@@ -5,11 +5,11 @@ function Story() {
     return (
         <div>
             <div className='container'>
-            <div className='img-box'>{
+            <div className='img-box ' >{
                 MY_PROJECTS.map((project, index) => {
                     const { id, img } = project;
-                    return (<div className='img-con'>
-                    <img src={img} className='main-img'/>
+                    return (<div className='img-con '>
+                    <img id='storyimg' src={img} className='main-img '/>
                 </div>);
                 })
             }

@@ -32,7 +32,7 @@ class MainPage extends Component {
     const { likedCards } = this.state;
 
     return (
-      <div className="h-[74vh] flex overflow-hidden">
+      <div className="h-[70vh] flex overflow-hidden">
         {/* <div className="w-[20%] "></div> */}
 
         <div
