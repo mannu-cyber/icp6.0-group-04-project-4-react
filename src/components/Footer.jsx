@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="fixed	 bottom-7 left-[50%] flex gap-9 w-[470px] -translate-x-[50%] justify-evenly">
+    <footer className="fixed h-[60px]	items-center bottom-0 left-[50%] flex gap-9 w-[483px] -translate-x-[50%] justify-evenly ">
       <Link to="/home">
         <img src="home.png" alt="" />
       </Link>
