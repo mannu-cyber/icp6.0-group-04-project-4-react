@@ -1,14 +1,17 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-// import { useHistory } from "react-router-use-history";
-
+import { useHistory } from "react-router-use-history";
+// const navigate = useHistory('')
 import '../../public/font.css'
 
 function Match() {
 
-// const navigate = useHistory('')
 
+// const nav = ()=>{
+// navigate.push('./female')
+
+// }
 
   return (
     <div className='h-[100vh] py-3 px-2 '>
@@ -27,7 +30,7 @@ function Match() {
 
   <h1  className='text-[2vw]'>Male</h1>
 </div>
-<div className="male w-[300px] h-[200px] hover:border hover:bg-[#50C8EF]  mx-auto flex justify-center items-center flex-col">
+<div  className="male w-[300px] h-[200px] hover:border hover:bg-[#50C8EF]  mx-auto flex justify-center items-center flex-col">
   <img src="female.png" alt="" />
   <h1 className='text-[2vw]' >Female</h1>
 </div>

@@ -45,7 +45,11 @@ const router = createBrowserRouter([
   {
     path:'/massage',
     element:<Massage/>
-  }
+  }, 
+  // {
+  //   path:'/female',
+  //   element:<fema
+  // }
   
 
 ]);
