@@ -1,0 +1,67 @@
+.profile-card{
+    height: 600px;
+    width: 400px;
+    border: 1px solid ;
+    display: block;
+    margin: auto;
+
+}
+.title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.profile-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    position: relative;
+}
+.edit-icon{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 610px;
+    bottom: 340px;
+}
+.profile-info{
+    margin: 10px 30px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    font-size: 15px;
+}
+.button span{
+    background-color: tomato;
+}
+#edit-btn{
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#save-btn{
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.bio{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    width: 330px;
+
+    
+}
+input:hover{
+    border: none;
+}

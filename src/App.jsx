@@ -46,6 +46,7 @@ const router = createBrowserRouter([
   {
     path:'/massage',
     element:<Massage/>
+<<<<<<< HEAD
   },
   {
     path:'/female',
@@ -53,6 +54,13 @@ const router = createBrowserRouter([
   }
 
   
+=======
+  }, 
+  // {
+  //   path:'/female',
+  //   element:<fema
+  // }
+>>>>>>> 2a36eb97cddac4544fe2bc75772bc9a65a9f2b5d
   
 
 ]);
