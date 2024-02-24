@@ -2,12 +2,12 @@
     display: flex;
     margin: 0 auto;
     white-space: nowrap;
-    gap: 2px;
+    gap: 5px;
     height: 100px;
-    width: 100%; /* Adjust as needed */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    flex-shrink: 0; /* Ensure it doesn't shrink */
-    /* background-color: red; */
+    width: 100%; 
+    overflow-x: auto; 
+    flex-shrink: 0; 
+   
     align-items: center;
    margin-top: 20px;
   }
@@ -21,8 +21,8 @@
   }
   
   .img-con {
-    width: 90px;
-    height: 90px;
+    width: 90x;
+    height: 90x;
     border-radius: 50%;
     cursor: pointer;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
