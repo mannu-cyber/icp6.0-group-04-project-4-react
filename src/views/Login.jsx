@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-use-history";
+import google from "../assets/google.png";
+import Facebook from "../assets/facebook.png";
+import Tweeter from "../assets/twitter.png";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -25,8 +28,10 @@ const Login = () => {
   return (
     <div className="h-screen">
       <div className="container flex flex-col justify-center items-center h-full gap-[50px]">
-      
-        {/* <h1 className="text-center text-[2vw]">Login</h1> */}
+        <img src="/logo.png" alt="" />
+        <h1 className="text-center text-[2vw]">Login</h1>
+
+     
 
         <form className="flex flex-col px-[3vw] gap-[15px]">
           <input
@@ -46,9 +51,15 @@ const Login = () => {
           />
 
           <div className="p">
-          {/* <p className="w-[90%] block mx-auto text-center">People who use our service may have uploaded your contact information to PremSangam. Learn More</p> */}
- 
+            {/* <p className="w-[90%] block mx-auto text-center">People who use our service may have uploaded your contact information to PremSangam. Learn More</p> */}
           </div>
+
+          <p
+            onClick={handleSignUpRedirect}
+            className="text-center cursor-pointer text-blue-400 -mt-5"
+          >
+            Forgot pasword?
+          </p>
 
           <button
             onClick={handleLogin}
@@ -58,13 +69,21 @@ const Login = () => {
             Login
           </button>
 
-          <button
-            onClick={handleSignUpRedirect}
-            type="button"
-            className="px-20px py-1 w-[300px] mx-auto rounded-[20px] bg-blue-500 hover:border-none"
-          >
-            Sign Up
-          </button>
+          <p onClick={handleSignUpRedirect} className="text-center">
+            Don't have an account
+            <span className="px-20px py-1 cursor-pointer mx-auto rounded-[20px] text-blue-500 underline hover:border-none">
+              {" "}
+              Sign Up
+            </span>
+          </p>
+
+          <p className="text-center">or</p>
+          <div className="other flex gap-9 justify-center">
+            <img src={google} alt="" />
+            <img src={Facebook} alt="" />
+            <img src={Tweeter} alt="" />
+          </div>
+          <p className="text-center text-sm text-[#4d8d49]">Your login information is securely encrypted.</p>
         </form>
       </div>
     </div>

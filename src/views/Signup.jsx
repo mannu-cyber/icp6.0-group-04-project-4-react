@@ -84,6 +84,7 @@ By signing up, you agree to our Terms , Privacy Policy and Cookies Policy .</p>
             Sign up
           </button>
         </form>
+        <p className="-my-8">or</p>
 
         <div className="other flex gap-9">
           <img src={google} alt="" />
