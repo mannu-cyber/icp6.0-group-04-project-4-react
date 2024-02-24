@@ -6,12 +6,12 @@ Premsangam is a social networking platform that combines features from Facebook,
 
 Here are some screenshots of the website:
 
-1. ![Screenshot 1](../icp6.0-group-04-project-4-react/src/components/images/ss1.jpeg)
-2. ![Screenshot 2](../icp6.0-group-04-project-4-react/src/components/images/ss2.jpeg)
-3. ![Screenshot 3](../icp6.0-group-04-project-4-react/src/components/images/ss3.jpeg)
-4. ![Screenshot 4](../icp6.0-group-04-project-4-react/src/components/images/ss4.jpeg)
-5. ![Screenshot 5](../icp6.0-group-04-project-4-react/src/components/images/ss5.jpeg)
-6. ![Screenshot 6](../icp6.0-group-04-project-4-react/src/components/images/ss6.jpeg)
+1. ![Screenshot 1](./src/components/images/ss1.jpeg)
+2. ![Screenshot 2](./src/components/images/ss2.jpeg)
+3. ![Screenshot 3](./src/components/images/ss3.jpeg)
+4. ![Screenshot 4](./src/components/images/ss4.jpeg)
+5. ![Screenshot 5](./src/components/images/ss5.jpeg)
+6. ![Screenshot 6](./src/components/images/ss6.jpeg)
 
 ## Features
 
