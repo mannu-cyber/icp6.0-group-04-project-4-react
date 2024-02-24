@@ -11,9 +11,13 @@ import UserDashboard from "./views/UserDashboard";
 import MainPage from "./components/MainPage/MainPage";
 
 const router = createBrowserRouter([
+  
+
+
   {
-   path: '/MainPage' , element: <MainPage/>
-  },
+    path: '/MainPage' , element: <MainPage/>
+   },
+   
   { path: '/home', element: <Home /> },
   {
     path:'/match',

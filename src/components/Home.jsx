@@ -7,6 +7,7 @@ function Home() {
     <>
       
       <MainPage/>
+      <MainPage/>
       
     </>
   );
