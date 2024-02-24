@@ -12,32 +12,82 @@ const cardData = [
   },
   {
     id: 2,
-    username: '@Dhanuu_kale_23',
-    bio: 'cat lover....😻',
+    username: '@Sukanya_Anbhule',
+    bio: 'passion computer.💻',
     image: 'mst.jpg',
     likes: 1100,
   },
   {
     id: 3,
-    username: '@Dhanuu_kale_23',
-    bio: 'cat lover....😻',
+    username: '@The_Sky',
+    bio: 'Nature lover...🏞️',
     image: 'why1.jpg',
     likes: 1100,
   },
   {
     id: 4,
-    username: '@Dhanuu_kale_23',
-    bio: 'cat lover....😻',
+    username: '@Black_Beery',
+    bio: 'world tour...🚗',
     image: 'sari4.jpg',
-    likes: 1100,
+    likes: 100,
   },
   {
     id: 5,
-    username: '@Dhanuu_kale_23',
-    bio: 'cat lover....😻',
+    username: '@its_Really_prachuuu',
+    bio: 'Bappa lover...🙏',
     image: 'jins1.jpg',
-    likes: 1100,
+    likes: 1200,
+  },
+  {
+    id: 4,
+    username: '@cherry',
+    bio: 'krushna fan...',
+    image: 'ladki2.jpg',
+    likes: 100,
+  },
+  {
+    id: 4,
+    username: '@Queen',
+    bio: 'College Girl..',
+    image: 'queen7.jpg',
+    likes: 100,
+  },
+  {
+    id: 4,
+    username: '@Radhe_Krushn',
+    bio: 'Radhe Radhe!',
+    image: 'radha.jpg',
+    likes: 100,
+  },
+  {
+    id: 4,
+    username: '@Princess_shreya',
+    bio: 'papa ki pari',
+    image: 'queen4.jpg',
+    likes: 100,
+  },
+  {
+    id: 4,
+    username: '@Dashing_girl',
+    bio: 'meri life meri marji',
+    image: 'queen5.jpg',
+    likes: 100,
+  },
+  {
+    id: 4,
+    username: '@its_nikss',
+    bio: 'Mahakal ki diwani',
+    image: 'uniq.jpg',
+    likes: 100,
+  },
+  {
+    id: 4,
+    username: '@its_hruta',
+    bio: 'Foodie',
+    image: 'grl1.jpg',
+    likes: 100,
   }
+  
 ];
 
 const size = {
@@ -91,7 +141,7 @@ function Card({ card }) {
         <button style={{ height: '25px', width: '25px', margin: '2px' }}><img src='share.png' alt="Share"></img></button>
         <button style={{ height: '25px', width: '25px', margin: '2px' }}><img src='save.png' alt="Save"></img></button>
       </div>
-      <div style={{ height: '100px', width: '240px', marginTop: '20px', marginRight: '20px', backgroundColor: 'white', border: '1px solid #ccc', borderRadius: '5px' }}>
+      <div style={{ height: '100px', width: '240px', marginTop: '20px', marginRight: '20px', backgroundColor: 'white', border: '1px #ccc', borderRadius: '5px' }}>
         <img src={card.image} alt="Profile"></img>
         <div />
         <h1 style={username}>{card.username}</h1>

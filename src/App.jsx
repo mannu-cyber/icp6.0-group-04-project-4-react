@@ -48,7 +48,7 @@ const router = createBrowserRouter([
     element:<Massage/>
   },
   {
-    path:'/Female',
+    path:'/female',
     element:<Female/>
   }
 
