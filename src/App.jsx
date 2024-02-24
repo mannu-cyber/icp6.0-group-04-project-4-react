@@ -9,6 +9,9 @@ import Login from "./views/Login";
 import OtpVerification from "./views/OtpVerification";
 import UserDashboard from "./views/UserDashboard";
 import MainPage from "./components/MainPage/MainPage";
+import HarasaDm from "./views/HarasaDm";
+import Arjun from "./views/Arjun";
+import Vikrant from "./views/Vikrant";
 
 const router = createBrowserRouter([
   
@@ -51,7 +54,21 @@ const router = createBrowserRouter([
   //   element:<fema
   // }
   
+{
+  path:'/harsaDm',
+  element:<HarasaDm/>
+},
 
+
+{
+  path:'/arjun',
+  element:<Arjun/>
+}, 
+
+{
+  path:"/vikrant",
+  element:<Vikrant/>
+}
 ]);
 
 const App = () => {
